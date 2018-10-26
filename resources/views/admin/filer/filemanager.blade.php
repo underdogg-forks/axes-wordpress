@@ -13,20 +13,10 @@
     <meta name="author" content="" />
     
     <title>{{pick_trans('menu.file')}}</title>
-    
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/font-icons/entypo/css/entypo.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/font-icons/font-awesome/css/font-awesome.min.css')}}">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/bootstrap.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/neon-core.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/neon-theme.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/neon-forms.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/skins/white.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/sharenjoy/custom.css')}}">
 
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/css/fileupload/files.css')}}">
-    <link rel="stylesheet" href="{{asset('packages/sharenjoy/cmsharenjoy/js/dropzone/dropzone.css')}}">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic">
+
+
 
     <!--[if lt IE 9]><script src="{{asset('packages/sharenjoy/cmsharenjoy/js/ie8-responsive-file-warning.js')}}"></script><![endif]-->
 
@@ -101,11 +91,11 @@
     <!-- Javascript Output Ends -->
 
     <!-- Bottom Scripts -->
-    <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/jquery-1.11.0.min.js')}}"></script>
+    {{--  <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/jquery-1.11.0.min.js')}}"></script>
     <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js')}}"></script>
     <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/bootstrap.js')}}"></script>
     <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/toastr.js')}}"></script>
-    <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/dropzone/dropzone.min.js')}}"></script>
+    <script src="{{asset('packages/sharenjoy/cmsharenjoy/js/dropzone/dropzone.min.js')}}"></script>  --}}
 
     <script>
         $(function() {

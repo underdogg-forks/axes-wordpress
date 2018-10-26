@@ -22,8 +22,8 @@ return [
      * The array of language
      */
     'locales' => [
-        'zh-TW' => '繁體中文',
-        // 'en'    => 'English',
+        //'zh-TW' => '繁體中文',
+        'en'    => 'English',
         // 'zh-CN' => '簡體中文',
         // 'ja'    => '日文',
     ],
@@ -31,20 +31,12 @@ return [
     /**
      * This is default language setting
      */
-    'language_default' => env('APP_LANGUAGE_DEFAULT', null),
+    'language_default' => env('APP_LANGUAGE_DEFAULT', 'en'),
 
     'language' => [
-        'tw' => [
-            'icon'  => 'flag-tw.png',
-            'title' => '繁體中文',
-        ],
         'en' => [
             'icon'  => 'flag-uk.png',
             'title' => 'English',
-        ],
-        'jp' => [
-            'icon'  => 'flag-jp.png',
-            'title' => '日本語',
         ],
     ],
 
