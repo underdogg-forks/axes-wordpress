@@ -49,8 +49,10 @@ class CategoryController extends ObjectBaseController
 
     public function getIndex(Request $request)
     {
-        $type  = $this->type;
+        $type  = isset($this->type) ? $this->type : 'category';
         $limit = $this->repo->getModel()->whereType($type)->count();
+
+
         $num = $this->getCategoryLayerNumber($type);
 
         $categories = Categorize::getCategoryProvider()->root()->whereType($type)->orderBy('sort')->get();

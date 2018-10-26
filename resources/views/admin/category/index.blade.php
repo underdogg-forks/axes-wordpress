@@ -17,7 +17,7 @@
                     <div class="row">
                         <div class="col-xs-8 col-left">
                             <div class="dataTables_length">
-                                <h3>{{pick_trans('manage')}}</h3>
+                                <h3>manage</h3>
                             </div>
                         </div>
                         <div class="col-xs-4 col-right">
@@ -39,7 +39,7 @@
             
                     <div class="panel-heading">
                         <div class="panel-title">
-                            {{pick_trans('please_drag')}}
+                            please_drag
                         </div>
                         
                         <div class="panel-options">
@@ -53,7 +53,7 @@
                         <div id="list-1" class="nested-list dd with-margins">
 
                             <ul class="dd-list">
-                                @foreach($categories as $keyOne => $valueOne)
+                                @forelse($categories as $keyOne => $valueOne)
                                 <li class="dd-item" data-id="{{$valueOne['id']}}">
                                     <div class="dd-handle"> {{$valueOne['title']}} </div>
                                     
@@ -78,7 +78,9 @@
                                     @endif
 
                                 </li>
-                                @endforeach
+								@empty
+									empty list
+                                @endforelse
                             </ul>
                                 
                         </div>
@@ -88,7 +90,7 @@
         </div>
     @else
         <div class="alert alert-info">
-            {{pick_trans('no_item_yet')}}
+            no_item_yet
         </div>
     @endif
 @stop
